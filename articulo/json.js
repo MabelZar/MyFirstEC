@@ -9,8 +9,8 @@ const jsonObj = {
     "articulos": [
       {
         "nombre": "abrigo de lana",
-        "precio": 200,
-        "imagen": "img ./",
+        "precio": 200 +" $",
+        "imagen": "./images/lana.jpg",
         "composicion": "53% lana",
         "tallas": [
           "xs",
@@ -24,7 +24,7 @@ const jsonObj = {
       {
         "nombre": "acolchado",
         "precio": 250,
-        "imagen": "img./",
+        "imagen": "img ./images/plumifero.jpg",
         "composicion": "53% lana",
         "tallas": [
           "xs",
@@ -35,7 +35,7 @@ const jsonObj = {
       {
         "nombre": "plumifero",
         "precio": 350,
-        "imagen": "img ./",
+        "imagen": "img ./images/acolchado.jpg",
         "composicion": "53% lana",
         "tallas": [
           "xs",
@@ -66,13 +66,13 @@ const jsonObj = {
       myArticle.textContent = articulos[i].nombre;
       
       const myP1 = document.createElement('p');
-      myP1.textContent=articulos[i].precio
+      myP1.textContent=articulos[i].precio;
 
       const myP2 = document.createElement('p');
       myP2.textContent=articulos[i].composicion
 
       const img=document.createElement('img')
-      img.src= articulos[i].imagen
+      img.src= articulos[i].imagen;
 
       const myList = document.createElement('ul');
       
