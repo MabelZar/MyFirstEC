@@ -1,5 +1,5 @@
 const jsonObj = {
-  "tipo de prenda": "Abrigos",
+  marca: "SIN MARCA",
   lugar: "España",
   tendencia: 2023,
   descripcion: "Abrigos confeccionado con lana etc etc...",
@@ -44,15 +44,15 @@ const jsonCat = {
   categoria: [
     {
       idCategoria: 0,
-      nombreCategoria: "abrigos"
+      nombreCategoria: "Abrigoss"
+    },
+    {
+      idCategoria: 1,
+      nombreCategoria: "Bolsos"
     },
     {
       idCategoria: 2,
-      nombreCategoria: "bolsos"
-    },
-    {
-      idCategoria: 3,
-      nombreCategoria: "pantalones"
+      nombreCategoria: "Pantalones"
     },
   ],
 };
